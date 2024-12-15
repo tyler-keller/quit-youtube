@@ -6,11 +6,17 @@ i find that youtube is a catch-22:
 - there is content which provides alpha
 - there is content that is just time-waste
 
+## goals
+
 the goal for this service is to provide like-minded individuals w/ all the tools to take full advantage of youtube w/o the bad parts.
+
+## features
 
 currently supports:
 - append `quit` to any youtube.com/watch url and return the embeded video
 - introduction content on the mission of the site
+
+## backlog
 
 want to support:
 - google oauth
