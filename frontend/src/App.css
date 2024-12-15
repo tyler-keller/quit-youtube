@@ -1,0 +1,159 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 48px;
+  font-weight: bold;
+  /* padding: 20px; */
+  margin-top: 60px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 30px;
+  }
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3% 5% 5% 5%;
+  box-sizing: border-box;
+}
+
+.responsive-iframe {
+  width: 100%;
+  height: calc(100vw * 9 / 16);
+  max-width: 1000px;
+  max-height: calc(1000px * 9 / 16);
+  border: none;
+}
+
+/* general styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* container for centering and spacing */
+div {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* header styles */
+h1 {
+  font-size: 2rem;
+  color: #1e88e5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #e53935;
+  margin: 20px 0;
+}
+
+/* paragraph styles */
+p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+p em {
+  color: #e53935;
+  font-style: italic;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1e88e5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: #eee;
+  margin: 40px 0;
+}
+
+.navbar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* container for buttons/links */
+
+/* button-styled links */
+.navbar-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-radius: 5px;
+  background-color: #1e88e5;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.navbar-container a:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+.navbar-container a:active {
+  background-color: #0d47a1;
+}
+
+/* apply indentation to specific h3 elements */
+.indent {
+  margin-left: 20px; /* adjust this value to control indentation */
+}
+
+html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
